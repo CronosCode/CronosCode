@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://CronosCode.github.io/sitemap.xml
