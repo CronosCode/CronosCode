@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: SSWE Daniel B # the website title (if blank, full name will be used instead)
+title: Daniel Branysh # the website title (if blank, full name will be used instead)
 first_name: Daniel
 middle_name: 
 last_name: Branysh
@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: lock_in.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon-32x32.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://cronoscode.github.io # the base hostname & protocol for your site
 baseurl: "/CronosCode" # the subpath of your site, e.g. /blog/. Leave blank for root
