@@ -435,12 +435,7 @@ ninja.data = [{
             window.location.href = "/CronosCode/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/CronosCode/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+      },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -502,6 +497,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%64%61%6E%69%65%6C%62%72%61%6E%79%73%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/CronosCode", "_blank");
+        },
+      },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/https://www.kaggle.com/danielbranysh", "_blank");
         },
       },{
         id: 'social-linkedin',
