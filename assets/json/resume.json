@@ -1,80 +1,188 @@
 {
-  "name": "Daniel Branysh",
-  "location": "Dallas, Texas, 75208",
-  "phone": "(432) 770-5384",
-  "email": "danielbranysh@gmail.com",
-  "linkedin": "https://www.linkedin.com/in/daniel-branysh-software-engineer",
-  "github": "https://github.com/DBranysh",
-  "technical_skills": {
-    "languages": ["Java", "Python", "Rust", "SQL", "KQL", "R", "Shell Scripting"],
-    "frameworks_libraries": ["Spring Boot", "React", "Kafka", "RabbitMQ", "Prometheus", "Grafana"],
-    "cloud_devops": ["Azure", "Kubernetes", "Docker", "K9s", "KubeCTL", "Azure DevOps", "GitHub Actions"],
-    "architecture": ["Microservices", "Event-Driven Design", "RESTful APIs", "Observability", "CI/CD"],
-    "practices": ["Agile", "Test-Driven Development (TDD)", "Secure Coding Standards"]
+  "meta": {
+    "theme": "professional"
   },
-  "experience": [
-    {
-      "title": "Software Engineer (L3)",
-      "company": "American Airlines",
-      "location": "Fort Worth, TX",
-      "start_date": "Nov 2023",
-      "end_date": "Present",
-      "achievements": [
-        "Designed and implemented AAQUILA, a high-throughput asynchronous queue processing platform with React frontend, Kafka/RabbitMQ backend, and custom alerting, enabling over 100K transactions/day across 7 microservices.",
-        "Tuned Azure Kubernetes Service (AKS) resource profiles using telemetry data from ADX, reducing pod memory usage by 45% and improving horizontal scalability.",
-        "Developed and automated legacy system reconciliation using Bash scripts and audit-driven validation pipelines, reducing manual security operations by 22%.",
-        "Championed Agile best practices and launched a mentorship initiative that improved junior developer ramp-up time by 40% and boosted sprint throughput by 25%."
-      ]
+  "basics": {
+    "name": "Daniel Branysh",
+    "label": "Senior Software Engineer",
+    "phone": "(432) 770-5384",
+    "email": "danielbranysh@gmail.com",
+    "summary": "Senior Software Engineer with a strong focus on distributed systems, Kubernetes, and cloud-native development. Passionate about building high-throughput, scalable microservices and mentoring teams to deliver impactful solutions.",
+    "website": "https://github.com/DBranysh",
+    "url": "https://github.com/DBranysh",
+    "location": {
+      "city": "Dallas",
+      "countryCode": "US"
     },
-    {
-      "title": "Software Engineer (L2)",
-      "company": "American Airlines",
-      "location": "Fort Worth, TX",
-      "start_date": "Jun 2021",
-      "end_date": "Nov 2023",
-      "achievements": [
-        "Led the migration of the company’s legacy ticketing system into a scalable microservices-based ecosystem using Spring Boot and RESTful APIs, improving system uptime and latency by 80%.",
-        "Designed and deployed a RabbitMQ-based event queue to offload critical workflows from legacy systems, cutting load by 50,000 transactions/day.",
-        "Integrated Prometheus custom metrics for Kubernetes HPAs, resulting in 15% downtime reduction under high traffic.",
-        "Reduced Mean Time to Detect and Recover (MTTD/MTTR) by over 45% using Grafana dashboards and custom ADX queries for live alerting."
-      ]
-    }
-  ],
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "daniel-branysh-software-engineer",
+        "url": "https://www.linkedin.com/in/daniel-branysh-software-engineer"
+      },
+      {
+        "network": "github",
+        "username": "DBranysh",
+        "url": "https://github.com/DBranysh"
+      }
+    ]
+  },
   "education": [
     {
-      "degree": "Master of Science",
-      "field": "Data Science",
-      "institution": "University of Texas Austin",
-      "expected_graduation": "Dec 2026",
-      "focus": ["Bayesian Inference", "LLMs", "Computer Vision", "Simulation-Based Inference"]
+      "startDate": "2024-01-01",
+      "endDate": "2026-12-01",
+      "area": "Data Science",
+      "studyType": "Master of Science",
+      "institution": "University of Texas Austin"
     },
     {
-      "degree": "Bachelor of Science",
-      "field": "Computer Science",
-      "institution": "UT Permian Basin",
-      "graduation_date": "May 2021",
-      "gpa": "3.97",
-      "honors": ["President’s List x3", "IEEE CS Founder"],
-      "research": "Lightweight Intrusion Detection in Ad-hoc Vehicle Networks"
+      "startDate": "2019-08-01",
+      "endDate": "2021-05-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "institution": "UT Permian Basin"
     }
   ],
-  "projects_awards": [
+  "skills": [
     {
-      "title": "AAQUILA (2024)",
-      "description": "Enterprise-grade message orchestrator with NLP input, supporting microservice-based re-platforming of legacy flows."
+      "name": "Languages",
+      "level": "Senior",
+      "keywords": [
+        "Java",
+        "Python",
+        "Rust",
+        "SQL",
+        "KQL",
+        "R",
+        "Shell Scripting"
+      ]
     },
     {
-      "title": "Lightweight IoT IDS",
-      "description": "Designed anomaly-based intrusion detection model for IoT edge devices, enabling real-time threat detection with <5% resource overhead."
+      "name": "Frameworks & Libraries",
+      "keywords": [
+        "Spring Boot",
+        "React",
+        "Kafka",
+        "RabbitMQ",
+        "Prometheus",
+        "Grafana"
+      ]
     },
     {
-      "title": "Hackathon Finalist (2024)",
-      "description": "Led a team of 5 engineers to 4th place (out of 27) at American Airlines Hackathon, prototyping a logging overhead service using internal APIs."
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "K9s",
+        "KubeCTL",
+        "Azure DevOps",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Architecture & Practices",
+      "keywords": [
+        "Microservices",
+        "Event-Driven Design",
+        "RESTful APIs",
+        "Observability",
+        "CI/CD",
+        "Agile",
+        "TDD",
+        "Secure Coding Standards"
+      ]
     }
   ],
-  "certifications": [
-    "Regression & Predictive Modeling (UT Austin)",
-    "Deep Learning Specialization (UT Austin)",
-    "Simulation-Based Statistical Inference (UT Austin)"
+  "awards": [
+    {
+      "title": "Hackathon Finalist",
+      "awarder": "American Airlines",
+      "date": "2024-01-01",
+      "summary": "Led a team of 5 engineers to 4th place (out of 27) at American Airlines Hackathon, prototyping a logging overhead service using internal APIs."
+    }
+  ],
+  "work": [
+    {
+      "summary": "Delivered high-throughput asynchronous systems and optimized cloud infrastructure to support 100K+ daily transactions.",
+      "name": "American Airlines",
+      "location": "Fort Worth, TX",
+      "position": "Software Engineer (L3)",
+      "startDate": "2023-11-01",
+      "highlights": [
+        "Built AAQUILA platform using React, Kafka/RabbitMQ, processing 100K+ transactions/day across 7 microservices.",
+        "Reduced pod memory by 45% via AKS tuning informed by ADX telemetry data.",
+        "Automated reconciliation pipelines, decreasing manual security ops by 22%.",
+        "Launched mentorship initiative improving junior ramp-up by 40% and sprint velocity by 25%."
+      ]
+    },
+    {
+      "summary": "Led modernization of legacy ticketing systems and introduced event-driven architecture for improved scalability.",
+      "name": "American Airlines",
+      "location": "Fort Worth, TX",
+      "position": "Software Engineer (L2)",
+      "startDate": "2021-06-01",
+      "endDate": "2023-11-01",
+      "highlights": [
+        "Migrated legacy ticketing to Spring Boot microservices, improving uptime/latency by 80%.",
+        "Deployed RabbitMQ event queues, offloading 50K+ daily transactions.",
+        "Integrated Prometheus custom metrics with HPAs for traffic resilience.",
+        "Cut MTTD/MTTR by 45% using Grafana dashboards and ADX live alerts."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "description": "Enterprise-grade message orchestrator with NLP input, supporting microservice-based re-platforming of legacy flows.",
+      "name": "AAQUILA",
+      "startDate": "2024-01-01"
+    },
+    {
+      "description": "Anomaly-based intrusion detection model for IoT edge devices, enabling real-time threat detection with <5% resource overhead.",
+      "name": "Lightweight IoT IDS",
+      "startDate": "2020-08-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Regression & Predictive Modeling",
+      "issuer": "UT Austin"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "UT Austin"
+    },
+    {
+      "name": "Simulation-Based Statistical Inference",
+      "issuer": "UT Austin"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tech Exploration",
+      "keywords": [
+        "AI/ML",
+        "Data Engineering",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "name": "Fitness",
+      "keywords": [
+        "Weightlifting",
+        "Running",
+        "Climbing"
+      ]
+    }
   ]
 }
