@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Dallas, TX | Engineer | Interloper | Wizard
+subtitle: Dallas, TX | Engineer | Interloper | Wizard
 
 profile:
   align: right

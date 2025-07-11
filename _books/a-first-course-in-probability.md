@@ -7961,7 +7961,7 @@ call the set{ S 1 , S 2 ,..., Sk }a partition of S .Let
 Tn denote the number of different partitions of
 {1, 2,..., n }. Thus, T 1 =1 (the only partition being
 S 1 ={ 1 })and T 2 = 2 (the two partitions being
-{{1, 2,}},{{ 1 },{ 2 }}).
+{\(1, 2,)},{( 1 ), (2 ) }).
 (a) Show, by computing all partitions, that T 3 =
 5, T 4 =15.
 (b) Show that
