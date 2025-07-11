@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Here is my resume, may not be completely updated though!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/CronosCode/cv/";
@@ -50,13 +50,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/CronosCode/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/CronosCode/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -94,7 +87,17 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{
+      },{id: "books-a-first-course-in-probability",
+          title: 'A First Course in Probability',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/CronosCode/books/a-first-course-in-probability/";
+            },},{id: "books-probability-and-computing",
+          title: 'Probability and Computing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/CronosCode/books/probability-and-computing/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
