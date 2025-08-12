@@ -2,6 +2,7 @@
 title: Probability and Computing
 author: Michael Mitzenmacher, Eli Upfal
 status: reading
+description: Probability and Computing by Michael Mitzenmacher and Eli Upfal
 tags: [probability, statistics, theory]
 layout: book
 ---

@@ -1,7 +1,8 @@
 ---
 title: A First Course in Probability
 author: Sheldon Ross
-status: reading
+status: read
+description: A First Course in Probability
 tags: [probability, statistics, theory]
 layout: book
 ---

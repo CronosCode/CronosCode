@@ -6,7 +6,7 @@ subtitle: Dallas, TX | Engineer | Interloper | Wizard
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: State_fair_serfie.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Dallas TX, 75208</p>
