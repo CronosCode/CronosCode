@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/CronosCode/";
     },
-  },{id: "nav-bookshelf-with-links-below",
-          title: "Bookshelf with Links below",
+  },{id: "nav-bookshelf",
+          title: "Bookshelf",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -80,12 +80,12 @@ ninja.data = [{
           title: 'A First Course in Probability',
           description: "A First Course in Probability",
           section: "Books",handler: () => {
-              window.location.href = "/CronosCode/books/Daniel's-List";
+              window.location.href = "/CronosCode/books";
             },},{id: "books-probability-and-computing",
           title: 'Probability and Computing',
           description: "Probability and Computing by Michael Mitzenmacher and Eli Upfal",
           section: "Books",handler: () => {
-              window.location.href = "/CronosCode/books/Daniel's-List";
+              window.location.href = "/CronosCode/books";
             },},{
         id: 'social-email',
         title: 'email',
